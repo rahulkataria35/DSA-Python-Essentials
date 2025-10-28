@@ -1,6 +1,19 @@
+"""
+Problem statement
+You have been given an array 'a' of 'n' unique non-negative integers.
+Find the second largest and second smallest element from the array.
+Return the two elements (second largest and second smallest) as another array of size 2.
+
+Example :
+Input: 'n' = 5, 'a' = [1, 2, 3, 4, 5]
+Output: [4, 2]
+The second largest element after 5 is 4, and the second smallest element after 1 is 2.
+"""
+
 # time complexity: O(nlogn)
 # space complexity: O(1)
 def second_largest(arr):
+    # if array has unique values
     arr.sort()
     return arr[-2]
 
@@ -48,6 +61,7 @@ def second_largest_3(arr):
         elif arr[i] > second_largest and arr[i] != largest:
             second_largest = arr[i]
     return second_largest
+
 
 def second_smallest(arr):
     small = float("inf")

@@ -1,3 +1,17 @@
+"""
+Link :> https://www.codingninjas.com/studio/problems/majority-element_6783241?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse
+LeetCode :> https://leetcode.com/problems/majority-element/
+Problem Statement: Given an array of N integers, write a program to return an element that occurs more than N/2 times in the given array. 
+You may consider that such an element always exists in the array.
+
+Example
+Input Format: N = 3, nums[] = {3,2,3}
+Result: 3
+Explanation: When we just count the occurrences of each number and compare with half of the size of the array, you will get 3 for the above solution. 
+
+THis Problem uses "Moore's Voting Algorithm"
+"""
+
 # given an arr with len = n, you have to find the majority element has length > n/2
 
 # brute-force

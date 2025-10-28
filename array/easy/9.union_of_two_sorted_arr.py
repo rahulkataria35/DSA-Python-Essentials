@@ -1,4 +1,20 @@
 '''
+Link :  https://takeuforward.org/data-structure/union-of-two-sorted-arrays/
+
+Problem Statement: Given two sorted arrays, arr1, and arr2 of size n and m. Find the union of two sorted arrays.
+The union of two arrays can be defined as the common and distinct elements in the two arrays.
+
+**Note : Elements in the union should be in ascending order.
+
+Example:
+Input:
+n = 5,m = 5.
+arr1[] = {1,2,3,4,5}  
+arr2[] = {2,3,4,4,5}
+Output:{1,2,3,4,5}
+'''
+
+'''
 Time Compleixty : O( (m+n)log(m+n) ) . Inserting a key in map takes logN times, where N is no of elements in map. 
 At max map can store m+n elements {when there are no common elements and elements in arr1,arr2 are distntict}. So 
 Inserting m+n th element takes log(m+n) time. Upon approximation across insertion of all elements in worst it would 

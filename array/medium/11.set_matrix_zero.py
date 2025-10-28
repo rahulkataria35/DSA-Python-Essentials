@@ -1,4 +1,12 @@
-
+'''
+Coding Ninja >  https://www.codingninjas.com/studio/problems/zero-matrix_1171153?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+LeetCode > https://www.codingninjas.com/studio/problems/zero-matrix_1171153?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+Problem Statement: Given a matrix if an element in the matrix is 0 then you will have to set its entire column and row to 0 and then return the matrix.
+Examples
+Input: matrix=[[1,1,1],[1,0,1],[1,1,1]]
+Output: [[1,0,1],[0,0,0],[1,0,1]]
+Explanation: Since matrix[2][2]=0.Therfore the 2nd column and 2nd row wil be set to 0.
+'''
 
 # bruteforce approach
 # Time Complexity: O((N*M)*(N + M)) + O(N*M),

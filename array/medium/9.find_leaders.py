@@ -1,3 +1,17 @@
+'''
+Coding Ninja >> https://www.codingninjas.com/studio/problems/superior-elements_6783446?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+
+Problem Statement: Given an array, print all the elements which are leaders. 
+A Leader is an element that is greater than all of the elements on its right side in the array. [element, >>>]
+Example:
+Input:
+arr = [10, 22, 12, 3, 0, 6]
+Output:
+22 12 6
+Explanation:
+6 is a leader. In addition to that, 12 is greater than all the elements in its right side (3, 0, 6), also 22 is greater than 12, 3, 0, 6.
+'''
+
 # find leaders in an array: everything on the right should be smaller
 
 def leader(arr):

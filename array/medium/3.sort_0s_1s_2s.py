@@ -1,7 +1,13 @@
 '''
+Link >> https://www.codingninjas.com/studio/problems/631055?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+Link LeetCode >> https://leetcode.com/problems/sort-colors/
 Problem Statement: Given an array consisting of only 0s, 1s, and 2s. 
 Write a program to in-place sort the array without using inbuilt sort functions. 
+
 ( Expected: Single pass-O(N) and constant space)
+Example:
+Input: nums = [2,0,2,1,1,0]
+Output: [0,0,1,1,2,2]
 '''
 
 # time complexity = O(2n), space complexity = O(1)

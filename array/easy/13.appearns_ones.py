@@ -1,3 +1,14 @@
+'''
+Link :> https://www.codingninjas.com/studio/problems/find-the-single-element_6680465?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse
+Problem Statement: Given a non-empty array of integers arr, every element appears twice except for one. Find that single one.
+
+Example:
+Input Format: arr[] = {2,2,1}
+Result: 1
+Explanation: In this array, only the element 1 appear once and so it is the answer.
+Leetcode and Coding Ninja have same questions 
+'''
+
 # find the number in an array that appears ones
 
 arr = [1,1,2,2,3,4,4,5,5]

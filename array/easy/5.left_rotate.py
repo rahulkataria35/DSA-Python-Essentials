@@ -1,3 +1,14 @@
+"""
+Problem statement
+Given an array 'arr' containing 'n' elements, rotate this array left once and return it.
+Rotating the array left by one means shifting all elements by one place to the left and moving the first element to the last position in the array.
+
+Example:
+Input: 'a' = 5, 'arr' = [1, 2, 3, 4, 5]
+Output: [2, 3, 4, 5, 1]
+Explanation: We moved the 2nd element to the 1st position, and 3rd element to the 2nd position, and 
+4th element to the 3rd position, and the 5th element to the 4th position, and move the 1st element to the 5th position.
+"""
 
 # left rotate arr by one place
 # Time complexity: O(n)
@@ -52,9 +63,6 @@ def left_rotate_by_d_places(arr,d):
     return arr[d:]+ arr[:d]
 
 
-
-
-
 # Time complexity: O(n)
 # - The loop runs n times, where n is the length of the array.
 # - Each assignment operation inside the loop takes O(1) time.
@@ -75,7 +83,6 @@ def left_rotate_by_d_places_1(arr,d):
 
 arr = [1,2,3,4,5,6,7,8]
 # print(left_rotate_by_d_places_1(arr,2))
-
 
 
 # best solution

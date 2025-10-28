@@ -1,3 +1,15 @@
+'''
+Problem :  You are given an array of integers, your task is to move all the zeros in the array to the end of the array and
+move non-negative integers to the front by maintaining their order.
+
+Example :
+Input: 1 ,0 ,2 ,3 ,0 ,4 ,0 ,1
+Output: 1 ,2 ,3 ,4 ,1 ,0 ,0 ,0
+Explanation: All the zeros are moved to the end and non-negative integers are moved to front by maintaining order
+
+
+'''
+
 arr = [1,3,0,2,0,4,5,8,0,1,3,0,3]
 
 def move_all_zero_to_the_end_1(arr):

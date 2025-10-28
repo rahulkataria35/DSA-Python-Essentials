@@ -1,3 +1,15 @@
+
+'''
+Link :> https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_6682399?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_Arrayproblems
+Problem Statement: Given an array and a sum k, we need to print the length of the longest subarray that sums to k.
+Example :
+Input Format: N = 3, k = 5, array[] = {2,3,5}
+Result: 2
+Explanation: The longest subarray with sum 5 is {2, 3}. And its length is 2.
+Sliding Window Technique Question >> That to of variable window 
+Because  the lenght of window is not defined but the sum of the window should be of K which is given. 
+'''
+
 '''
 find the longest subarray with given sum (positive)
 '''
